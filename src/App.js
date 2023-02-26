@@ -7,12 +7,12 @@ import NavBar from './NavBar.js'
 import Header from './Header.js'
 import Stack from 'react-bootstrap/Stack';
 
-import './App.css';
+import './App.css';                              
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-function App() {
+function App() {          //pt of functionality added here
   return (
     <div>
     <Stack>
