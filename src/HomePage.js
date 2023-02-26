@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomePage.css'
 
-const Home = () => {
+const Home = () => {  // () "declares" that this Home fcn takes no argz; f et dUrn Ded- wuD b in ()
 
 
     return (
