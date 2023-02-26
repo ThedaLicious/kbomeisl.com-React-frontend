@@ -13,7 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {          //pt of functionality added here
-  return (
+  return (                // rtnz HTML 
     <div>
     <Stack>
       <h1 class='ui header justify-content-center'>
@@ -25,7 +25,7 @@ function App() {          //pt of functionality added here
         
     </Stack>
     <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route path="/" element={<Home/>}/>              // Home is a react ele; {} exec js
       <Route path="/projects" element={<Projects/>}/>
       <Route path="/skills" element={<Skills/>}/>
     </Routes>
